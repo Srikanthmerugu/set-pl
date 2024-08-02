@@ -1,9 +1,9 @@
 
 .container {
-  width: 100vw;
-  text-align: center;
-  font-family: Arial, sans-serif;
-padding: 0;
+  width: 90vw;
+  /* padding: 4%; */
+  margin: 0 auto;
+padding: 0 2%;
 }
 
 .sub-container {
@@ -55,7 +55,7 @@ padding: 0;
 }
 
 .image-container {
-  width: 40%;
+  width: 30%;
 }
 
 .image-container img {

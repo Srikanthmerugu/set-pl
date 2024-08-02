@@ -3,6 +3,7 @@ import "./home.css"
 import Navbar from "../Navbar/navbar"
 import Hero from '../Hero/hero'
 import Herotwo from '../Hero/HeroTwo/herotwo'
+import Cards from '../Cards.js/cards'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
     <div className='scroll-watcher'></div>
    <Navbar />
    <Hero />
+   <Cards/>
    {/* <Herotwo/> */}
 
   
