@@ -1,0 +1,22 @@
+.container {
+    /* margin-top: 15%; */
+  width: 100vw;
+  /* padding: 4vw; */
+  /* background: linear-gradient(to bottom, #defbdf 0%, #ccffcc 100%); */
+border: 1px solid red;  text-align: center;
+}
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding:1% 5%;
+}
+
+
+
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 40% 0 40%;
+  }
