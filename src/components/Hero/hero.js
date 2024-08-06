@@ -29,8 +29,8 @@ const Hero = () => {
         </div>
       </div>
 
-
-      <div className="cards-container">
+<div className="hero-card-session">
+<div className="cards-container">
         <div className="card-main">
           <div className="sub-card">
             <FaLightbulb className="icon" />
@@ -82,6 +82,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
+</div>
+     
     </div>
   );
 };

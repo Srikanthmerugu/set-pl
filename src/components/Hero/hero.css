@@ -1,9 +1,10 @@
 
 .container {
-  width: 90vw;
-  /* padding: 4%; */
-  margin: 0 auto;
-padding: 0 2%;
+  width: 98.89vw;
+  text-align: center;
+  font-family: Arial, sans-serif;
+/* padding: 4%; */
+
 }
 
 .sub-container {
@@ -11,11 +12,16 @@ padding: 0 2%;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
+  padding: 4%;
 }
 
 .header {
-  width: 40%;
+  width: 45%;
   text-align: start;
+}
+.header p{
+  text-align: justify;
+
 }
 
 .header h1 {
@@ -51,34 +57,45 @@ padding: 0 2%;
 }
 
 .contact-btn:hover .arrow {
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 .image-container {
-  width: 30%;
+  width: 50%;
 }
 
 .image-container img {
   width: 100%;
   height: auto;
-  border-radius: 40% 0 40%;
+  border-radius: 40%/50% 0 40%;
+  transition: all 0.3s ease-in-out;
+}
+.image-container img:hover {
+
+  border-radius: 0% 40% 0% 40%;
+
+}
+.hero-card-session {
+  padding:0 4%;
 }
 
 .cards-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  /* padding: 4%; */
 }
 
 .card-main {
   background-color: #fff;
   padding: 20px;
-  margin: 10px;
+  /* margin: 10px; */
+  gap:10px ;
   border-radius: 10px;
-  width: 25vw;
+  width: 29%;
   height: auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s, color 0.3s;
+  box-shadow:  9px -9px 18px #bebebe,
+  -9px 9px 18px #ffffff;  transition: background-color 0.3s, color 0.3s;
   text-align: start;
   display: flex;
   flex-direction: column;
@@ -146,9 +163,9 @@ padding: 0 2%;
 /* Media Queries for responsiveness */
 
 /* Large screens */
-@media (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width:1024px)  {
   .sub-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
 
@@ -164,21 +181,36 @@ padding: 0 2%;
   .card-main {
     width: 40vw;
   }
+  .contact-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
 }
 
 /* Tablets */
 @media (max-width: 768px) {
-  .sub-container {
-    padding: 2% 5%;
+  .container{
+    width: 100vw;
   }
-
-  .header, .image-container {
-    width: 90%;
-    margin-top: 2%;
+  .header, .image-container{
+    width: 100%;
+  }
+  .sub-container {
+    flex-direction: column-reverse;
+    align-items: center;
   }
 
   .header h1 {
     font-size: 2em;
+    text-align: center;
   }
 
   .header p {
@@ -190,49 +222,13 @@ padding: 0 2%;
   }
 
   .card-main {
-    width: 80vw;
-    margin: 20px 0;
-  }
-}
-
-/* Small screens */
-@media (max-width: 480px) {
-  .container {
-    padding: 2vw;
-  }
-
-  .sub-container {
-    padding: 5% 2%;
-  }
-
-  .header, .image-container {
-    width: 100%;
-    text-align: center;
-  }
-
-  .header h1 {
-    font-size: 1.8em;
-  }
-
-  .header p {
-    font-size: 0.9em;
-  }
-
-  .cards-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card-main {
-    width: 90vw;
+    width: 85vw;
     margin: 10px 0;
   }
-
-  .card-main h2 {
-    font-size: 20px;
+  .contact-btn{
+    width: 100%;
   }
-
-  .card-main p {
-    font-size: 16px;
-  }
+  
 }
+
+

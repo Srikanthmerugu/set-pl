@@ -1,22 +1,26 @@
 import React from 'react'
 import "./home.css"
 import Navbar from "../Navbar/navbar"
+import Solutions from '../Solutions/solutions'
+import Technologies from '../Technology/technology'
 import Hero from '../Hero/hero'
-import Herotwo from '../Hero/HeroTwo/herotwo'
 import Cards from '../Cards.js/cards'
+import Footer from '../Footer/footer'
 
 const Home = () => {
   return (
-    <> <div className='home-container'>
+    <> <div>
     <div className='scroll-watcher'></div>
-   <Navbar />
+   {/* <Navbar /> */}
+
+   </div>
    <Hero />
-   <Cards/>
-   {/* <Herotwo/> */}
+   <Solutions />
+   <Cards />
 
-  
-
-   </div></>
+   <Technologies />
+   <Footer />
+   </>
   )
 }
 

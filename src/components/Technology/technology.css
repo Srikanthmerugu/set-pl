@@ -1,0 +1,194 @@
+.technology-image {
+    width: 100%;
+    min-height: 300px;
+    height: 350px;
+}
+
+.technology-container {
+    margin-top: 40px;
+    width: 98.9vw;
+    background-color: #000; /* Changed background color to black */
+    color: #85C324; /* Changed text color to white */
+    text-align: justify;
+    padding: 4vw; /* Added padding */
+    box-sizing: border-box; /* Include padding in the total width/height */
+}
+
+
+
+.technology-main-heading{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #E67817;
+}
+
+
+.technology-image-text-container {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Space between image-text and buttons */
+    transition: transform 0.35 ease-in-out;
+
+}
+
+.technology-image-text-container:hover{
+    /* transform: scale(1.01);  */
+}
+
+.technology-image-container {
+    width: 45%; 
+}
+
+.technology-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%; 
+    min-height: 300px;
+    height: 350px;/* 55% width for the text container */
+}
+.technology-text-heading{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.technology-text-para {
+    /* max-height: auto; */
+    font-size: 20px;
+}
+
+.technology-text-para.expanded {
+    display: block;
+    max-height: none;
+}
+
+.read-more-button {
+    background-color: #E67817;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.read-more-button:hover {
+    background-color: #85C324;
+}
+
+.technology-play-button-container {
+    display: flex;
+    justify-content: space-between; /* Space between the play button and navigation buttons */
+    align-items: center;
+    margin-top: 20px; /* Space above the buttons */
+}
+
+.technology-play-button {
+    background-color: #E67817;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px; /* Adjust icon size */
+}
+
+.technology-play-button:hover {
+    background-color: #85C324;
+}
+
+.technology-button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.technology-button-container button {
+    background-color: #E67817;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px; /* Adjust icon size */
+}
+
+.technology-button-container button:hover {
+    background-color: #85C324;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) { */
+
+    .technology-main-heading{
+        font-size: 20px;
+       
+        margin-bottom: 10px;
+    }
+    .technology-image-text-container {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px; /* Space between image-text and buttons */
+        transition: transform 0.35 ease-in-out;
+    
+    }
+    .technology-image-container {
+        width: 100%; 
+    } 
+    .technology-text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%; 
+
+        min-height: auto;
+        height: 70vh;
+    }
+    .technology-text-heading{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    
+    .technology-text-para {
+        /* max-height: 60px; */
+        height: auto;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .technology-text-para {
+        max-height: auto ; 
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+  
+    .read-more-button {
+        background-color: transparent;
+        color: #E67817;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    
+    .technology-play-button:hover {
+        background-color: transparent;
+    }
+    .technology-play-button::after{
+        background-color: transparent;
+    }
+    .technology-text-container{
+        height: auto;
+    }
+    
+}

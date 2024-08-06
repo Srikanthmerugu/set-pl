@@ -1,0 +1,164 @@
+.footer-container{
+    width: 98.45vw;
+}
+
+.footer-logo-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+    border-bottom: #E67817 solid 3px;
+}
+
+.footer-logo{
+    margin-top: 2%;
+    width: 8%;
+    height: 8%;
+}
+
+.footer-social-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    align-self: flex-end;
+}
+.footer-social-icon{
+    margin-left: 20px;
+    min-width: 30px;
+    min-height: 30px;
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer-social-icon:hover{
+    transform: scale(1.1);
+    box-shadow:  30px 30px 60px white,
+             -30px -30px 60px white;
+}
+
+.footer-company-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-company{
+    padding: 4%;
+    width: 25%;
+}
+
+.footer-company-heading{
+    font-size: 28px;
+    color: #85C324;
+    margin-bottom: 10px;
+}
+
+.footer-email-form{
+    margin: 4%;
+    padding: 1%;
+    display: flex;
+    width: 30%;
+    height: 200px;
+    flex-direction: column;
+    background: linear-gradient(45deg, #E67817, #F4A300);
+
+
+    border-radius: 20px;
+}
+
+.footer-email-input{
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 8px;
+    border: transparent;
+    background: #fdfdfde0;
+}
+
+.footer-email-submit{
+    width: 55%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 8px;
+    border: transparent;
+    background: #fdfdfde0;
+}
+
+@media screen and (max-width: 768px){
+    .footer-logo-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 4%;
+        border-bottom: #E67817 solid 3px;
+    }
+        
+    .footer-logo{
+        margin-top: 2%;
+        width: 20%;
+        height: 20%;
+        margin-bottom: 20px;
+    }
+
+    .footer-social-container{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        align-self: center;
+    }
+    .footer-social-icon{
+        margin-left: 10px;
+        width: 30px;
+        height: 30px;
+    }
+    .footer-company-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .footer-company{
+        padding: 4%;
+        width: 42%;
+    }
+
+    .footer-email-form{
+        width: 80%;
+        padding: 4%;
+    }
+        
+        
+    .footer-email-input{
+        width: 80%;
+        margin-bottom: 20px;
+        padding: 12px;
+        border-radius: 8px;
+        border: transparent;
+        background: #fdfdfde0;
+    }
+
+    .footer-email-submit{
+        width: 89%;
+        margin-bottom: 20px;
+        padding: 12px;
+        border-radius: 8px;
+        border: transparent;
+        background: #fdfdfde0;
+    }
+
+    .footer-company-heading{
+        font-size: 25px;
+        color: #85C324;
+        margin-bottom: 10px;
+    }
+    .footer-company-items{
+        font-size: 16px;
+    }
+    .footer-email-heading{
+        font-size: 25px;
+    }
+
+}
