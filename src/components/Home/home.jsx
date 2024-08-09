@@ -6,6 +6,7 @@ import Technologies from '../Technology/technology'
 import Hero from '../Hero/hero'
 import Cards from '../Cards.js/cards'
 import Footer from '../Footer/footer'
+import CustomizedConepy from '../CustomizedConepy/customizedConepy'
 
 const Home = () => {
   return (
@@ -19,7 +20,9 @@ const Home = () => {
    <Cards />
 
    <Technologies />
+   <CustomizedConepy />
    <Footer />
+   
    </>
   )
 }

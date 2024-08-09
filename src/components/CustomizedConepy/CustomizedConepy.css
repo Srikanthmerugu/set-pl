@@ -1,0 +1,110 @@
+.conepy-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.sub-container {
+  padding:0 4%;
+  padding-top: 4%;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conephy-logo-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.conepy-logo {
+  width: 200px;
+  margin-bottom: 2%;
+  height: 100px;
+  background-color: #4caf50;
+  position: relative;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-family: Arial, sans-serif;
+  border-radius: 90% 50% 90%;
+}
+
+.conephy-logo-con h2 {
+  text-align: center;
+  color: #4caf50;
+  margin-top: 5%;
+}
+.right-thum-show {
+  font-size: 6rem;
+  color: #4caf50;
+  text-align: center;
+}
+.content{
+    width: 80%;
+    margin-top: 1%;
+}
+.conephy-image-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-box {
+    width: 30%;
+    /* margin: 2%; */
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.image-box img{
+    width: 100%;
+}
+.image-box p{
+    color: #E67817;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.conephy-info-container {
+    padding:0 4%;
+}
+.conephy-info-box h3{
+    color: #4caf50;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 1%;
+}
+.conephy-info-box p{
+    font-size: 18px;
+    padding: .5% 2.4%;
+    
+}
+.conephy-core-strength{
+    border: 3px solid #4caf50;
+border-radius: 20px;
+margin: 2% 0;
+
+}
+.conephy-core-strength h2{
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #4caf50;
+    padding: 2%;
+    border-radius: 20px;
+    text-align: center;
+}
+.conephy-core-strength:hover{
+    border: 3px solid #E67817;
+}
+.conephy-core-strength h2:hover{
+    border: 1px solid #E67817;
+    color: #E67817;
+    background-color: #fff;
+
+
+}
+.conephy-features ul li {
+    list-style-type: none;
+    font-size: 18px;
+
+}

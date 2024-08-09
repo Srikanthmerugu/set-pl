@@ -64,13 +64,13 @@
   width: 50%;
 }
 
-.image-container img {
+.image-container >img {
   width: 100%;
   height: auto;
   border-radius: 40%/50% 0 40%;
   transition: all 0.3s ease-in-out;
 }
-.image-container img:hover {
+.image-container >img:hover {
 
   border-radius: 0% 40% 0% 40%;
 
