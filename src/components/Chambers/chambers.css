@@ -1,0 +1,95 @@
+.chambers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 4%;
+  }
+  .chamber-heading {
+    text-align: center;
+    color:  #4caf50;
+    padding-top: 4%;
+  }
+  
+  .chamber-card {
+    display: flex;
+    width: 48%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .chamber-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .chamber-image {
+    width: 20%;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .chamber-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .chamber-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .chamber-content h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color:  #4caf50 !important;
+  }
+  
+  .chamber-content p {
+    margin-top: 10px;
+    color: #666;
+    font-size: 1rem;
+  }
+  .chamber-content a{
+    text-decoration: none;
+    
+  }
+  .chamber-content a:hover {
+    text-decoration: underline;
+    text-decoration-color: #4caf50;
+  }
+  
+
+  @media (max-width: 768px) {
+    .chambers-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 4%;
+      }
+      .chamber-card {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+     }
+     
+  .chamber-image {
+    width: 100%;
+    height: 150px;
+    object-fit:contain;
+    transition: transform 0.3s ease;
+  }
+  .chamber-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
