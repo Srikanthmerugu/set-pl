@@ -38,7 +38,7 @@
     flex-direction: row-reverse;
   }
   
-  .chamber-image {
+  .single-chamber-image {
     width: 300px;
     height: 300px;
     object-fit: cover;
@@ -109,3 +109,27 @@
     border-color: #3498db;
   }
   
+
+  @media  (max-width: 768px) {
+
+    .chamber-section {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .chamber-header{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .chamber-header h1{
+        font-size: 1.5rem;
+    }
+    .chamber-section:nth-child(even) {
+        flex-direction:column;
+      }
+      .chamber-content  {
+        text-align: justify;
+      }
+
+    
+  }

@@ -90,7 +90,7 @@ const SingleChamber = () => {
 
       {/* Chamber Handling Section */}
       <div className="chamber-section">
-        <img src="https://img.freepik.com/free-vector/gardening-home-concept_23-2148532085.jpg?t=st=1723398954~exp=1723402554~hmac=efb4c979b0ce8fa68600eccc4663b8a214bf8749629c81fb685e03f22403fe45&w=740" alt="Chamber Handling" className="chamber-image"/>
+        <img src="https://img.freepik.com/free-vector/gardening-home-concept_23-2148532085.jpg?t=st=1723398954~exp=1723402554~hmac=efb4c979b0ce8fa68600eccc4663b8a214bf8749629c81fb685e03f22403fe45&w=740" alt="Chamber Handling" className="single-chamber-image"/>
         <div className="chamber-content">
           <h2>Chamber Handling, Installation and Commissioning</h2>
           <ul>

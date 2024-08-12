@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <> <div>
     <div className='scroll-watcher'></div>
-   {/* <Navbar /> */}
+   <Navbar />
 
    
 
