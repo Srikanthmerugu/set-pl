@@ -96,7 +96,7 @@ transform: scale(1.03);
   background-color: white;
     
 }
-.card-btn:hover,
+/* .card-btn:hover,
 :focus {
     color: #ffffff;
     background:  #4caf50;
@@ -106,7 +106,7 @@ transform: scale(1.03);
       0 0 100px #5adf79;
 
 
-}
+} */
 .card-more-button {
 
     display: flex;

@@ -9,6 +9,7 @@ import Footer from '../Footer/footer'
 import CustomizedConepy from '../CustomizedConepy/customizedConepy'
 import Chambers from '../Chambers/chambers'
 import SingleChamber from '../Chambers/SingleCamber/singleChamber'
+import About from '../About/about'
 
 const Home = () => {
   return (
@@ -28,6 +29,7 @@ const Home = () => {
    <Footer /> */}
    <Chambers/>
    {/* <SingleChamber /> */}
+   <About/>
    </>
   )
 }

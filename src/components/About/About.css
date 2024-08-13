@@ -1,0 +1,73 @@
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  .about-sub-container{
+    display: flex;
+    background-image: url('https://img.freepik.com/free-vector/green-curve-frame-template-vector_53876-113965.jpg?t=st=1723571218~exp=1723574818~hmac=c0105a906fa6580fbe21660eb53a602d4440f9291d74cf613036b63ca235bb4f&w=1060');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding:0 4%;
+    width: 100%;
+    height: 80vh;
+
+    background-color: white;
+    position: relative;
+    /* box-shadow: 0 0 0 5px #4caf50; Creates a green border-like effect */
+    border-radius: 10px;
+ }
+  .about-sub-container img{
+    width: 40%;
+    mix-blend-mode: multiply;
+
+  }
+  .about-sub-container p{
+    width: 80%;
+    text-align: justify;
+    font-size: 20px;
+  }
+  .about-sub-container h2{
+    text-align: center;
+    font-size: 2.2rem;
+    color:  #4caf50;
+    width: 80%;
+  }
+  
+  .about-card {
+    width: 300px;
+    margin: -70px 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: left;
+    z-index: 10;
+  }
+  
+  .about-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .about-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .whywechouse {
+    background-image: url('https://img.freepik.com/free-vector/realistic-dark-tropical-leaves-background_23-2148408626.jpg?t=st=1723571981~exp=1723575581~hmac=825891753a7f36016e014e4e6d2bb7ff746aca64f853f4f1c2d94fb8d1b2e600&w=1060');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    background-clip: content-box;
+    position: sticky;
+display: flex;  }
+
+.carousel-container {
+    width: 10vw;
+}
